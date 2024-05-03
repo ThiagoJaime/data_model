@@ -40,8 +40,8 @@
 | 1 | 1 | 1 | 0 |
 | 2 | 1 | 0 | 0 |
 
-### Entidade "Utiliza":
-| fk_Tecnologia_id | fk_Empresa_cnpj |
-|----------|----------|
-| 1 | 123456789 |
-| 2 | 987654321 |
+### Entidade "Relatorio":
+| Data | fk_Tecnologia_id | fk_Empresa_cnpj |
+|----------|----------|----------|
+| 2022/01/01 | 1 | 123456789 |
+| 2022/02/02 | 2 | 987654321 |
