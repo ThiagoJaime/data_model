@@ -1,18 +1,18 @@
 ## 1. Quais são as entidades necessárias? 
 - Empresa
 - Tecnologia
-- Utiliza
+- Relatorio
 - Colaborador
 - Area
 
 ## 2. Quais são os principais campos e seus respectivos tipos? 
-- 'Cnpj: INT'
+- 'Cnpj: VARCHAR'
 - 'ID: INT'
 - 'Area_id: INT'
-- 'Cpf: INT'
+- 'Cpf: VARCHAR'
 
 ## 3. Como essas entidades estão relacionadas? 
-- A empresa contrata nenhum ou vários colaboradores, já o colaborador, vai ser contratado por uma e somente uma empresa. A empresa pode utilizar várias tecnologias, e as tecnologias podem ser utilizadas por várias empresas. tecnologia tem um atributo multifatorado chamado area, criando assim, a tabela area com os atributos webdev, dados e marketing.
+- A empresa contrata nenhum ou vários colaboradores, já o colaborador, vai ser contratado por uma e somente uma empresa. A empresa pode utilizar várias tecnologias, e as tecnologias podem ser utilizadas por várias empresas, criando a tabela relatorio. tecnologia tem um atributo multifatorado chamado area, criando assim, a tabela area com os atributos webdev, dados e marketing.
 
 ## 4. Simule 2 registros para cada entidade:
 
